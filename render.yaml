@@ -2,7 +2,7 @@ services:
   - type: web
     name: CavaDorada_API
     env: java
-    runtime: java19
+    runtime: java19  # Cambia a 'java19' si usas Java 19
     buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/Restobar-CavaDorada-0.0.1-SNAPSHOT.jar"
     autoDeploy: true
